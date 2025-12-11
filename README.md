@@ -36,8 +36,14 @@ Run the program with simple terminal commands and configurable options.
 
 ---
 
+## 📦 Used Packages & Versions
+The following packages are required to run this project:
+- **Python 3.9+** : Recommended Python version for running this project.
+- **OpenCV (opencv-python) 4.9.0+** : Used for DNN-based face detection and image processing.
+- **NumPy 1.26.0+** : Required for numerical computations and matrix operations.
 ## 📁 Folder Structure
 
+```
 📂image
 ┃ ┗ 📜horse.jpg
 ┣ 📂models
@@ -48,10 +54,11 @@ Run the program with simple terminal commands and configurable options.
 ┣ 📜README.md
 ┣ 📜face_detect.py
 ┣ 📜face_mosaic.py
-┣ 📜face_mosaic*.py
+┣ 📜face_mosaic_.py
 ┣ 📜main.py
-┣ 📜media*utils.py
-┗ 📜media*utils*.py
+┣ 📜media_utils.py
+┗ 📜media_utils_.py
+```
 
 - `face_mosaic.py`
 - `face_mosaic_.py`
@@ -71,4 +78,9 @@ Both versions contain the **same code**, and only one of them is actually used i
 
 `python3 main.py --image image/horse.jpg --effect mosaic --mosaic-size 15`
 
-## Result
+## 📸 Result
+
+| Before | After |
+|--------|-------|
+| ![horse](https://github.com/user-attachments/assets/f01fde06-7489-4450-89d4-881ead8bf7cf) | ![mosaic_result](https://github.com/user-attachments/assets/34808989-cb29-448d-9a62-89b772ec3a79) |
+
