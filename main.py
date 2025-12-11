@@ -1,9 +1,9 @@
 import argparse
 import os
 import cv2
-from media_utils import load_image, save_image
+from media_utils_ import load_image, save_image
 from face_detect import load_face_detector, detect_faces
-from face_mosaic import apply_mosaic, apply_blur
+from face_mosaic_ import apply_mosaic, apply_blur
 
 def run(image_path, effect, mosaic_size=15, blur_ksize=31):
     # 1) 이미지 불러오기
